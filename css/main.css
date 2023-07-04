@@ -1,0 +1,76 @@
+/* General settings */
+* {
+  margin: 0px;
+  padding: opx;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+/* Card Style */
+.signatureCard {
+  background-color: #f0eee3;
+  color: #6a6968;
+  font-family: jetbrain monoMenlo, Monaco, "Courier New", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  max-height: 200px;
+  min-width: 700px;
+  margin: 300px;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Logo Size and position */
+.logo {
+  flex-basis: 40%;
+  display: flex;
+}
+
+.logo img {
+  max-width: 200px;
+  text-align: center;
+  padding: auto;
+  margin-left: 10px;
+}
+
+/* contact info style */
+.info {
+  flex-basis: 60%;
+  display: flex;
+  line-height: 3rem;
+}
+
+.rightSection {
+  padding-top: 32px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.leftSection {
+  padding-top: 32px;
+  padding-left: 0px;
+}
+
+/* incons media */
+.icons {
+  display: flex;
+  gap: 40px;
+}
+
+img {
+  max-width: 25px;
+}
+
+/* Red line */
+.line {
+  border-left: 5px solid #cc5f63;
+  margin-top: 20px;
+  height: 85%;
+  margin-left: 20px;
+}
